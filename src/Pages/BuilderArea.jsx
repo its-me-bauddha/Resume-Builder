@@ -15,7 +15,7 @@ const BuilderArea = (props) => {
 
     return (
         <>
-            {loading && <PropagateLoader id='spinner' color="#319795" size={30} />}
+            {loading && <PropagateLoader id='spinner' color="#f95959" size={30} />}
 
             <div id='main-box' className="d-flex justify-content-between flex-wrap mt-4 mx-2">
                 <UserDataCollect />

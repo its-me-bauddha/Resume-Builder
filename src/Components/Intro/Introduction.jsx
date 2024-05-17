@@ -27,9 +27,9 @@ export default function Introduction() {
                 <meta name="description" content="Build your professional resume in minutes using our easy-to-use online resume builder. Choose from a variety of templates and customize your resume to land your dream job. Get started now!" />
                 <meta name="keywords" content="resume builder, online resume builder, professional resume, resume templates, resume designs, resume generator, resume creator, resume maker, build resume, create resume, download resume" />
                 <meta name="robots" content="index,follow" />
-                <meta name="author" content="Hardik Desai" />
-                <meta property="og:image" content="https://avatars.githubusercontent.com/u/87645745?v=4" />
-                <meta property="og:url" content="https://quick-resume.netlify.app/about" />
+                <meta name="author" content="Harsh Bauddha" />
+                <meta property="og:image" content="https://avatars.githubusercontent.com/u/105487622?v=4" />
+                <meta property="og:url" content="https://resumebuilderlite.netlify.app/about" />
                 <meta property="og:type" content="website" />
             </Helmet>
 
@@ -50,7 +50,7 @@ export default function Introduction() {
                                     fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                     lineHeight={'110%'}>
                                     Your resume in three{' '}
-                                    <Text as={'span'} color={'#38B2AC'}>
+                                    <Text as={'span'} color={'#f95959'}>
                                         easy {' '}
                                     </Text>
                                     steps
@@ -89,7 +89,7 @@ export default function Introduction() {
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
                                 Select a {' '}
-                                <Text as={'span'} color={'#38B2AC'}>
+                                <Text as={'span'} color={'#f95959'}>
                                     Template {' '}
                                 </Text>
                                 from the list
@@ -107,8 +107,8 @@ export default function Introduction() {
                                 px={6}
                                 className='mb-4'
                                 colorScheme={'teal'}
-                                bg={'#38B2AC'}
-                                _hover={{ bg: '#319795' }}>
+                                bg={'#f95959'}
+                                _hover={{ bg: '#f95959' }}>
                                 Select Template
                             </Button>
                         </Stack>
